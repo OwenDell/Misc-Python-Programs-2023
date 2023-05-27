@@ -1,2 +1,13 @@
-# Misc-Python-Programs-2023
+## Misc-Python-Programs-2023
 A small collection of random programs I've written while learning python in 2023.
+I took a beginner level Python course during my senior year of high school in 2023, this is just a collection of some of the programs I worked on independently while learning Python. 
+This is just a way of storing these games, and it would take additional set up to be able to actually run these programs.
+
+# Program 1: Hangman/Wordle Game
+This was one of the first independent projects I worked on with Python, and it was initially intended to just be a simple Hangman game that pulls from a list of 5-character long words and you have to enter guesses to try to get the full hidden word before the hangman has filled in. It's intended to be played using python turtle graphics, as the turtle will draw out the hangman as well as the letters on screen. There are a few gamemodes you can choose from, Classic which is just classic hangman where you guess 1 letter at a time, Word where you guess the whole word and then letters in the correct spot get filled in, and Wordle, based off the popular NYT wordle game, where you also guess full words but where fully correct letters are in green, correct letters in the wrong spot are in yellow, and completely incorrect lettters are in red. Over all the programs pretty simple but I'm still proud of it.
+
+# Program 2: Final Hangman Game
+This was my second go at the hangman game but I completely started over from scratch and applied all the new coding techniques and mechanics that I had learned throughout the course. This one only has the one hangman gamemode where you guess 1 letter at a time, but I consider it superior to my first iteration as it features varying length hidden phrases that can be up to 12 characters long. It also allows for multiple words, and will randomly select 1 of 3 possible sentence structures that then piece together the hidden phrase in a mostly grammatically correct way as every word is divided into categories such as adjectives, nouns, and verbs that are then strung together in logical ways with the sentence structures. It also includes and animated ending sequence that plays based on whether you won or lost the game.
+
+# Program 3: Text RPG
+This is a new attempt at the same formula I did ~2 years ago in C#, being a cyclical text-based RPG. I've since learned a lot more about coding techniques and practices in general, so I'm trying to make this a far superior version of that old C# one. My biggest regret with it is not setting it up in a way that easily allows for me to have it span across multiple files from the start, so now all the code exists within 1 long file which I dislike and might go back to try and fix later. I have yet to finish it as of writing, but I'm still passionate about working on it and add more to it every day. 
